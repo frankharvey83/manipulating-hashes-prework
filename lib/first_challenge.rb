@@ -31,5 +31,3 @@ def first_challenge
     end
     contacts
   end
-
-  #remember to return your newly altered contacts hash!
