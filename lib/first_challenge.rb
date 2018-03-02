@@ -16,10 +16,11 @@ def first_challenge
   #your code here
 contacts["Freddy Mercury"].each do |key, value|
   if key == favorite_icecream_flavors
-    favorite_icecream_flavors.delete_if { |x| x == "strawberry" }
+    puts key
+    binding.pry
 end
 
   #remember to return your newly altered contacts hash!
   contacts
 end
-end 
+end
