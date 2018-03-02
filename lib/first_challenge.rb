@@ -27,5 +27,5 @@ def first_challenge
           delete_if {flavor == "strawberry"}
         end
 
-      end
+
       
