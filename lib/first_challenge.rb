@@ -21,11 +21,10 @@ def first_challenge
       #at this level, "attribute" is describes the key of :name, :email, :favorite_icecream_flavors, or :knows
       #we need to first check and see if the key is :favorite_icecream_flavors,
       #if it is, that means the VALUE is an array that we can iterate over to print out each element
-
       if attribute == :favorite_icecream_flavors
-        value.each do |flavor|
-          delete_if {flavor == "strawberry"}
+        value.delete_if { |flavor| flavor == "strawberry"}
         end
-
-
-      
+      end
+    end
+    contacts
+  end
